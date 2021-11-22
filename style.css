@@ -1,9 +1,13 @@
 header {
     background-color: rgb(0, 140, 255);
+    height: 10%;
+    background-image: url(img/pattern.png);
+    background-repeat: repeat-x;
 }
 
-.pattern {
-width: 15%;
-background-size: contain; 
-background-repeat: ;
+
+
+
+.font {
+    font-size: 60px;
 }
