@@ -28,3 +28,7 @@ header {
 .second {
     width: 44%;
 }
+
+.yellow {
+    background-color: yellow;
+}
