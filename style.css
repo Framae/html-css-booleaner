@@ -53,3 +53,30 @@ background-color: #b1e5f2;
 .content table th.text {
     width: 50%;
 }   
+
+footer h4 {
+    color: gray;
+}
+
+.image {
+    width: 200px;
+    height: 160px;
+    margin: 10px 0px;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image h3 {
+    margin: 0px;
+}
+h3 {
+    color: white;
+}
+#image-monitor {
+    background-image: url(img/monitor.jpg);
+}
+
+#image-graph {
+    background-image: url(img/graph.jpg);
+}
