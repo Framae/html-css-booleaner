@@ -1,34 +1,55 @@
+
+
+
+
 header {
-    background-color: rgb(0, 140, 255);
-    height: 150px;
     background-image: url(img/pattern.png);
-    position: relative;
+    height: 100px;
+    background-size: 30%;
+    background-color: rgb(0, 162, 255);
 }
 
-.color {
-    color: white;
-    position: absolute;
-    bottom: 1%;
-    left: 1%;
-    font-size: 35px;
+.container
+{
+
 }
 
-.font {
-    font-size: 60px;
+.logo {
+    height: 50px;
+    margin-top: 40px;
 }
 
-.paragraph {
-    margin-top: 0;
+.author {
+    font-size: 18px;
 }
 
-.first {
-    width: 51%;
+.date {
+    font-size: 12px;
+    color: gray;
 }
 
-.second {
-    width: 44%;
+.caption {
+    font-size: 12px;
 }
 
-.yellow {
+.content .highlight{
     background-color: yellow;
 }
+
+.content table {
+    text-align: left;
+    border-spacing: 0;
+}
+
+.content table thead {
+    color: white;
+    background-color: #20a9e5;
+}
+
+.content table .odd {
+background-color: #b1e5f2;
+}
+
+.content table th.text {
+    width: 50%;
+}   
